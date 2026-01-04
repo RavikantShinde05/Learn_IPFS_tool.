@@ -1,0 +1,54 @@
+Chapter 1: Core Concepts and Terminology (Detailing the Foundation)
+This chapter establishes the critical vocabulary and theoretical framework necessary for understanding the IPFS ecosystem.
+Lesson Topic
+Detailed Focus
+Source Details
+1. Defining IPFS
+The IPFS is a fundamental set of building blocks for improving the web. It uses open protocols for addressing, routing, and transferring data. The core goal is to make data content-addressed, verifiable, and unstoppable. This functionality is built upon the foundational ideas of content addressing and peer-to-peer networking.
+2. Key Terms and Definitions
+This lesson is crucial for starting your learning journey. You must check out the Glossary to learn the specialized key terms and concepts used throughout the IPFS documentation and ecosystem.
+3. Basic Structure and Functions
+Consult the Basic Concepts section to learn not only what IPFS is but also what it is not. This section describes the problems that IPFS solves and details the different subsystems that compose the tool and how each one operates.
+4. Underlying Theory
+Dive into the Ideas and theory section to understand the technical concepts that provide the foundation for IPFS. This includes key theoretical ideas such as hashing, immutability, and persistence.
+
+--------------------------------------------------------------------------------
+Chapter 2: Getting Started and Basic Data Management (Detailing Practical Use)
+This chapter focuses on installing IPFS and executing the two most basic functions: retrieving data from the network and providing content to it.
+Lesson Topic
+Detailed Focus
+Source Details
+1. Installation
+You have multiple ways to install an IPFS client depending on your needs: Install IPFS Desktop (a graphical user interface or GUI), Kubo (a command-line interface or CLI), or IPFS Companion (a browser extension). For infrastructure-level needs, you can look into tools like IPFS Cluster, Rainbow, and Someguy.
+2. Retrieving Data
+You can quickly retrieve data from the IPFS network without needing to program. The simplest methods include fetching data via its content identifier (CID) using an IPFS gateway. Alternatively, you can install the IPFS Companion browser extension to enable your browser to support native ipfs:// and ipns:// addresses.
+3. Providing Data
+You can provide content to the IPFS network using either IPFS Desktop or a pinning service. Installing IPFS Desktop provides you with a bundled IPFS node (Kubo) and a user interface (UI). This UI allows you to manage files, peers, explore content, and publish content to the network.
+
+--------------------------------------------------------------------------------
+Chapter 3: Advanced Guides and Application Building (Detailing Development)
+This chapter explores how to use IPFS to build and deploy actual applications and leverage its advanced functionality.
+Lesson Topic
+Detailed Focus
+Source Details
+1. Deploying Static Sites
+IPFS is an excellent fit for deploying static sites and decentralized applications (dapps). Detailed guides cover how to: Deploy static sites using a GitHub Action; Set up a DNSLink gateway to ensure your site is served via a custom domain; and Configure static site generators specifically for publishing to IPFS.
+2. Building IPFS-Native Apps
+You can build applications that directly utilize IPFS implementations. If you are familiar with JavaScript, consult the IPFS in web apps guide to learn how to use Helia and related libraries. If you prefer to develop applications using Go or need to interact with IPFS directly from the terminal, you should use the IPFS Kubo implementation. You can also try many other tools and implementations tailored to specific needs and written in different languages.
+3. Building Apps via HTTP
+HTTP has become an important foundation for interoperability as the IPFS ecosystem has grown. You can control an IPFS Kubo node via HTTP using the Kubo RPC API. For a simple interface for retrieving data that is implementation and runtime agnostic, you can use an IPFS gateway.
+
+--------------------------------------------------------------------------------
+Chapter 4: Troubleshooting, Reference, and Community (Detailing Support and Ecosystem)
+This final chapter connects you to reference material, provides help for common issues, and introduces the broader IPFS community.
+Lesson Topic
+Detailed Focus
+Source Details
+1. Ecosystem and Case Studies
+To understand the scope of the project, learn about its history and ecosystem status in the Project section. Review the Case Studies section to see examples of how other software systems leverage IPFS. Notable projects built with IPFS include Arbol, Audius, Fleek, LikeCoin, Morpheus.Network, and Snapshot.
+2. Subsystems and Implementations
+Deepen your technical knowledge by learning more about the subsystems and components that IPFS is composed of. You can also get an overview of different IPFS implementations and compare IPFS to other similar systems.
+3. Troubleshooting Issues
+If you encounter difficulties retrieving or providing data to the network, you should check the dedicated troubleshooting guide.
+4. Community Involvement
+IPFS is supported by a community of designers, developers, writers, and activists. If you are developing with IPFS and need technical support, there is a specific guide available for getting the fastest possible assistance from IPFS experts. You can find out about events and resources and learn how to get involved in the Community section.
