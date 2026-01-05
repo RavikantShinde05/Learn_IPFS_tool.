@@ -1,3 +1,5 @@
+Syllabus:
+
 Chapter 1: Core Concepts and Terminology (Detailing the Foundation)
 This chapter establishes the critical vocabulary and theoretical framework necessary for understanding the IPFS ecosystem.
 Lesson Topic
